@@ -7,7 +7,7 @@
 // @homepage      http://github.com/andrewnicols/userscripts-moodle
 // @namespace     http://userscripts.andrewrn.co.uk
 // @downloadURL   https://github.com/andrewnicols/userscripts-moodle/raw/fork/pull-request-helper.user.js
-// @version       4.04.0.0
+// @version       4.05.0.0
 // ==/UserScript==
 
 var userScript = function() {
@@ -17,6 +17,11 @@ var userScript = function() {
                 shortname: 'main',
                 customField: '10111',
                 branchname: 'main'
+            },
+            {
+                shortname: '405',
+                customField: '17110',
+                branchname: 'MOODLE_405_STABLE'
             },
             {
                 shortname: '404',
